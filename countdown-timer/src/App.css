@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  /* color: var(--White); */
+  color: var(--White);
 }
 body {
   background: url(./images/bgstars.svg);
@@ -15,6 +15,7 @@ body {
   padding: 4rem 1rem 0;
   overflow: hidden;
   height: 100vh;
+  /* display: grid; */
 }
 
 :root {
@@ -30,7 +31,7 @@ body {
   max-width: 500px;
   height: fit-content;
   /* background-color: yellow; */
-  margin: auto;
+  margin: 4rem auto 0;
   /* position: relative; */
   z-index: 1;
 }
@@ -39,11 +40,8 @@ body {
   justify-content: space-between;
   width: 100%;
   gap: 1rem;
-  /* position: absolute;
-  top: 0;
-  bottom: 30rem; */
   height: fit-content;
-  margin: auto;
+  margin: 3rem auto;
   
 }
 input {
@@ -56,17 +54,17 @@ input {
   padding: 0.7rem 0.5rem;
   color: black;
 }
+.status {
+  margin-top: 3rem;
+  text-align: center;
+}
 .cards-container {
   width: 100%;
   max-width: 500px;
   display: flex;
-  /* padding: 1rem; */
-  /* position: absolute; */
   justify-content: space-between;
-  /* inset: 0 0 0 0; */
-  margin: auto;
   /* background-color: white; */
-  /* height: 550px; */
+  margin: auto;
 }
 .card {
   display: flex;
